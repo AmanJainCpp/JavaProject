@@ -13,7 +13,7 @@ abstract class Employee {
         this.name = name;
         this.id = id;
     }
-
+    //encapsulation
     public String getName() {
         return name;
     }
@@ -25,7 +25,7 @@ abstract class Employee {
     // abstract method
     public abstract double calculateSalary();
 
-    @Override
+    //Override
     public String toString() {
         return "Employee[name=" + name + ", id=" + id + ", salary=" + calculateSalary() + "]";
     }
